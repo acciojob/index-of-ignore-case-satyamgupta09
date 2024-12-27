@@ -1,5 +1,5 @@
 function indexOfIgnoreCase(s1, s2) {
-	is(s2.length==0) return -1;
+	if(s2.length==0) return -1;  
   // write your code here
 	const str1 = s1.toLowerCase();
 const str2 = s2.toLowerCase();
@@ -7,8 +7,7 @@ return s1.indexOf(str2);
 
 }
 
-// Please do not change the cod e below
-
+// Please do not change the cod
 const s1 = prompt("Enter s1:");
 const s2 = prompt("Enter s2:");
 
